@@ -2,73 +2,83 @@
 
 An interactive Supply Chain Analytics Dashboard built using **Microsoft Power BI** to analyze sales, profitability, orders, customers, products, markets, regions, and delivery performance.
 
-## 📌 Dashboard Overview
+## 📸 Dashboard Preview
 
-The dashboard provides a consolidated view of key supply-chain business metrics and helps identify trends and performance across different markets, categories, products, and regions.
+![Supply Chain Power BI Dashboard](dashboard.png)
 
-## 📈 Key KPIs
+## 🎯 Project Objective
 
-| KPI | Value |
-|---|---:|
-| Total Sales | 4.15M |
-| Total Profit | 454.83K |
-| Total Orders | 12K |
-| Total Customers | 8K |
-| Average Order Value | 341.99 |
-| Profit Margin | 10.97% |
-| Average Delivery Delay | 62.30% |
+The objective of this project is to transform supply chain data into meaningful business insights using Power BI dashboards and interactive visualizations.
 
-## 📊 Dashboard Visualizations
+## 📌 Key KPIs
 
-- Monthly Sales and Profit Trend
-- Profit by Market
-- Average Delivery Delay by Market
-- Profit by Category
-- Profit by Product
-- Sales by Market
-- Orders by Delivery Status
-- Orders by Order Status
-- Sales by Category
-- Late Delivery Rate by Market
-- Sales by Region
+- 💰 Total Sales: 4.15M
+- 📈 Total Profit: 454.83K
+- 📦 Total Orders: 12K
+- 👥 Total Customers: 8K
+- 🛒 Average Order Value: 341.99
+- 📊 Profit Margin: 10.97%
+- 🚚 Average Delivery Delay: 62.30%
+
+## 📊 Dashboard Analysis
+
+The dashboard provides insights into:
+
+- Sales and profit trends over time
+- Profitability by market
+- Delivery performance by market
+- Sales by market and region
+- Order status distribution
+- Sales by product category
+- Top products by profit
+- Late delivery rate by market
+- Regional sales performance
 
 ## 🛠️ Tools & Technologies
 
-- **Microsoft Power BI Desktop**
+- **Microsoft Power BI**
 - **Power Query**
 - **DAX**
-- **Microsoft Excel / CSV**
+- **Data Cleaning & Transformation**
+- **Data Visualization**
+- **Business Intelligence**
+- **CSV Dataset**
 
-## 🔍 Analysis Performed
+## 📂 Repository Contents
 
-The project demonstrates practical skills in:
+| File | Description |
+|------|-------------|
+| `Supply chain.pbix` | Power BI dashboard file |
+| `supply_chain_final.csv` | Cleaned supply chain dataset |
+| `dashboard.png` | Dashboard preview |
+| `README.md` | Project documentation |
 
-- Data cleaning and transformation
-- Data modeling
-- DAX calculations
-- KPI development
-- Business intelligence
-- Interactive dashboard development
-- Supply chain analytics
-- Data visualization
-- Business performance analysis
+## 🔍 Key Business Insights
 
-## 💡 Business Insights
+The dashboard can be used to identify:
 
-The dashboard can be used to:
+- High-performing markets and regions
+- Most profitable product categories
+- Top-performing products
+- Order-status distribution
+- Delivery delays and late-delivery patterns
+- Sales and profitability trends
+- Areas requiring supply chain improvement
 
-- Compare sales performance across markets
-- Identify the most profitable categories and products
-- Monitor delivery performance
-- Analyze order-status distribution
-- Compare regional sales performance
-- Identify areas requiring operational improvement
+## 🚀 How to Use
 
-## 📂 Project Files
+1. Download the `Supply chain.pbix` file.
+2. Open it using **Microsoft Power BI Desktop**.
+3. Ensure the dataset is available if Power BI requests the data source.
+4. Interact with the dashboard using the available visuals and filters.
 
-```text
-Supply-Chain-PowerBI-Analytics/
-│
-├── Supply chain.pbix
-├── supply_chain_final.csv
-└── README.md
+## 👨‍💻 Author
+
+**G. Nagasai**
+
+Computer Science & Engineering Graduate  
+Full Stack Developer | Data Analytics | Power BI
+
+---
+
+⭐ If you find this project useful, consider giving the repository a star.
